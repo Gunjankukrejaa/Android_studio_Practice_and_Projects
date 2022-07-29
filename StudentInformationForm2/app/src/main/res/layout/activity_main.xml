@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#196"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_1"
+        android:text="Student Information Form"
+        android:textSize="34dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/edit_1"
+        android:layout_below="@+id/text_1"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:hint="First Name" />
+
+    <EditText
+        android:id="@+id/edit_2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/text_1"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="22dp"
+        android:hint="Last Name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/edit_3"
+        android:layout_below="@+id/text_1"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:hint="Birth Date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/edit_4"
+        android:layout_below="@+id/text_1"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:hint="Father's Name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/edit_5"
+        android:layout_below="@+id/text_1"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:hint="Mother's Name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/edit_6"
+        android:layout_below="@+id/text_1"
+        android:layout_marginTop="270dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="22dp"
+        android:hint="Address" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/edit_7"
+        android:layout_below="@+id/text_1"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:hint="Blood group" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/edit_8"
+        android:layout_below="@+id/text_1"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="22dp"
+        android:hint="Contact Number" />
+
+
+</RelativeLayout>

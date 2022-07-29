@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mapimage"
+    tools:context=".news3">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vectormenu"
+        android:layout_marginLeft="22dp"
+        android:id="@+id/menu"/>
+
+    <TextView
+        android:id="@+id/text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menu"
+        android:layout_marginTop="38dp"
+        android:layout_marginLeft="22dp"
+        android:text="Nature is beautiful!!"
+        android:textColor="@color/black"
+        android:textSize="26dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" We all are blessed to live in this beautiful mother earth.We are surrounded by number of people,materialistic things,etc.But what all actually gives us real peace is our nature.Nature provides us with oxygen to survive.We all just forget all our problems,worries,sorrows,anger when we spend time with nature.so let's be grateful for this beautiful nature."
+        android:textSize="18dp"
+        android:id="@+id/text_2"
+        android:layout_below="@+id/text_1"
+        android:textColor="@color/black"
+        android:background="@color/white"
+
+        android:layout_marginLeft="22dp"/>
+
+    <TextView
+        android:id="@+id/text_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_2"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="22dp"
+        android:text="Reviews"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="7dp"
+        android:text="Write here"
+        android:layout_marginRight="22dp"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/text_3"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/personimage"
+        android:layout_marginLeft="22dp"/>
+
+    <TextView
+        android:id="@+id/text_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_4"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="32dp"
+        android:text="Jim Smith"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/text_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_5"
+        android:layout_marginTop="2dp"
+        android:text="07th July,2022"
+        android:textColor="@color/black"
+        android:layout_marginLeft="120dp"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="So true!!Today let's be grateful for what all we are gifted with.Let's save trees!!Stop cutting them!!Plant more tress!!"
+        android:layout_below="@+id/text_6"
+        android:id="@+id/text_7"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:textSize="22dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="22dp"/>
+
+    <TextView
+        android:id="@+id/text_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="22dp"
+        android:text="            Like                       Comment"
+        android:textSize="22dp" />
+
+
+</RelativeLayout>

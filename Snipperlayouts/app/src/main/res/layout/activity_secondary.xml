@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_3"
+    tools:context=".SecondaryActivity">
+
+    <TextView
+        android:id="@+id/textview_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:background="@color/white"
+        android:text="Professional Details"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_marginTop="22dp"/>
+
+    <TextView
+        android:id="@+id/textview_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_9"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="22dp"
+        android:text="School Name: St.Vivekanand English School"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/textview_11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_10"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="14dp"
+        android:text="SSC Result: 91.40%"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/textview_12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_11"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginRight="22dp"
+        android:text="College Name: Government Polytechnic,Ahmednagar"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/textview_13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_12"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginRight="22dp"
+        android:text="Education: Pursuing Diploma in Computer Engineering"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/textview_14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_13"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="25dp"
+        android:text="Diploma Results:"
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textview_15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_14"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="22dp"
+        android:text="First sem: 92.57%"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/textview_16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_15"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="22dp"
+        android:text="Second sem: 91.63%"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/textview_17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_16"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="22dp"
+        android:text="Third sem: 91.87%"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_17"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="22dp"
+        android:text="Back" />
+
+
+</RelativeLayout>

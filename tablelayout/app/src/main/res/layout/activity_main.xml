@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:textSize="22dp"
+            android:layout_column="1"/>
+
+        <TextClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textclock"
+            android:layout_column="2"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name"
+            android:textSize="22dp"
+            android:layout_column="1"/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:width="500px"
+            android:id="@+id/edittext_1"/>
+
+    </TableRow>
+
+    <TableRow>
+
+       <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Last Name"
+        android:textSize="22dp"
+        android:layout_column="1"/>
+
+       <EditText
+        android:width="500px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext_2"   />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Contact number"
+         android:textSize="22dp"
+         android:layout_column="1"/>
+
+        <EditText
+         android:width="500px"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/edittext_3"   />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Address"
+            android:textSize="22dp"
+            android:layout_column="1"/>
+
+        <EditText
+            android:width="500px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edittext_4"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Father's Name"
+            android:textSize="22dp"
+            android:layout_column="1"/>
+
+        <EditText
+            android:width="500px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edittext_5"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Mother's Name"
+            android:textSize="22dp"
+            android:layout_column="1"/>
+
+        <EditText
+            android:width="500px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edittext_6"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Age"
+            android:textSize="22dp"
+            android:layout_column="1"/>
+
+        <EditText
+            android:width="500px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edittext_7"/>
+    </TableRow>
+
+    <TableRow
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RatingBar
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/ratingbar"
+            android:layout_column="2"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="Submit" />
+    </TableRow>
+
+
+</TableLayout>

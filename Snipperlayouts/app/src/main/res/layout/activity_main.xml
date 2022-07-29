@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_1"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview_1"
+        android:layout_below="@+id/spinner"
+        android:text="Hello Everyone!!"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:layout_marginLeft="22dp"/>
+
+    <TextView
+        android:id="@+id/textview_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_1"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="22dp"
+        android:text="Name: Gunjan Kukreja"
+        android:textColor="@color/black"
+        android:textSize="26dp"/>
+
+    <TextView
+        android:id="@+id/textview_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_2"
+        android:layout_marginTop="25dp"
+        android:text="Birth Date: 13th March,2005"
+        android:textSize="26dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="22dp"/>
+
+    <TextView
+        android:id="@+id/textview_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_3"
+        android:layout_marginTop="27dp"
+        android:text="Age: 17"
+        android:textSize="26dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="22dp"/>
+
+    <TextView
+        android:id="@+id/textview_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_4"
+        android:layout_marginTop="25dp"
+        android:text="Father's Name: Hiranand Kukreja"
+        android:textSize="26dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="22dp"/>
+
+    <TextView
+        android:id="@+id/textview_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_5"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="27dp"
+        android:text="Mother's Name: Mamta Kukreja"
+        android:textColor="@color/black"
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/textview_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_6"
+        android:layout_marginTop="23dp"
+        android:text="Caste: Hindu Sindhi"
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        android:layout_marginLeft="22dp"/>
+
+    <TextView
+        android:id="@+id/textview_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_7"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="25dp"
+        android:text="Birth place: Ahmednagar"
+        android:textColor="@color/black"
+        android:textSize="26dp" />
+
+
+</RelativeLayout>

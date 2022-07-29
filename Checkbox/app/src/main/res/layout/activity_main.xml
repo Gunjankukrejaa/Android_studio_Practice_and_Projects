@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:text="What makes you happy??"
+        android:textSize="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="22dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="30dp"
+        android:text="Nature"
+        android:textSize="22dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox2"
+        android:layout_below="@+id/checkbox1"
+        android:text="Solving Rubix cube"
+        android:textSize="22dp"
+        android:layout_marginLeft="22dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox3"
+        android:layout_below="@+id/checkbox2"
+        android:text="Dogs"
+        android:textSize="22dp"
+        android:layout_marginLeft="22dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox4"
+        android:layout_below="@+id/checkbox3"
+        android:text="Fighting with sibling"
+        android:textSize="22dp"
+        android:layout_marginLeft="22dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkbox4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:text="Submit"
+        android:textSize="22dp" />
+
+</RelativeLayout>

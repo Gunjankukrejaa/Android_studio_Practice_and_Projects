@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview1"
+            android:text="Hello everyone!!I dont know if someone is reading this.But I am just sharing my experience about life,what all I have learnt from life.Okay so first of all everyone of us have faced bad times good times and all times,same goes for me.Being an overthinker,I think I have faced a lot bad times than good times.But I never gve up in my bad times.Lets talk about what all I learnt in my that times.I learnt never ever give up.Trust yourself and trust almighty.Prioritize your mind.Stay away from toxic people.Help others who are in real need.Dont just fake humanity for social media.You know when we are in bad times we learn those lessons by ourselves that are really important for a better life.Life should not be long,It must be big.And we all know how difficult it is to leave from one place and go to other.But change is the only constant.Just be with yourself,You can face everything.Life is full of magical surprises.Sometimes we like those surprises because they are of our choice and sometimes we hate those.Lets give everything a try.Stop blaming!Stop expecting!Stop compromising eveytime!Only you know how valuable and precious you are.If overthinking preceds just indulge yourself in work.Forgive and give a chance.Its good for your mental health.Do what makes you happy.Also one thing,always trust your family.No one cares for you like them.Stop being egoistic all the time.I hope my this experience will help me in further life journey."
+            android:textSize="20dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="22dp"/>
+    </ScrollView>
+
+</RelativeLayout>

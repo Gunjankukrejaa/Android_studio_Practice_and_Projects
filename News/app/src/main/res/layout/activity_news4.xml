@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/islandimage"
+    tools:context=".news4">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector1_navigateleft"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/left_1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu_1"
+        android:src="@drawable/vectormenu"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="22dp"/>
+
+    <ImageView
+        android:id="@+id/menu_2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="426dp"
+        android:src="@drawable/vectorimage"
+        android:layout_above="@id/innerrelative_layout_2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="22dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_22"
+        android:layout_above="@+id/innerrelative_layout_2"
+        android:text="Nature!!"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        android:layout_marginLeft="22dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/innerrelative_layout_2"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_23"
+            android:text="About"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:layout_marginLeft="22dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_24"
+            android:text="Penida Island,Indonesia"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:layout_below="@id/text_23"
+            android:layout_marginLeft="22dp"/>
+
+        <TextView
+            android:id="@+id/text_25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Just nature things!!"
+            android:layout_below="@+id/text_24"
+            android:textColor="@color/black"
+            android:layout_marginLeft="22dp"/>
+
+        <TextView
+            android:id="@+id/text_26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_25"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="16dp"
+            android:text="About island"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_27"
+            android:text="Try out Penida Island in Indonesia.You will be amazed by seeing the peaceful view around.You will feel as if you are in heaven."
+            android:textSize="22dp"
+            android:layout_below="@+id/text_26"
+            android:layout_marginLeft="22dp"
+            android:layout_marginBottom="18dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

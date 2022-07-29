@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3"
+    tools:context=".news6">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector1_navigateleft"
+        android:id="@+id/imageview_777"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vectormenu"
+        android:id="@+id/imageview_778"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="22dp"/>
+
+    <TextView
+        android:id="@+id/textview_777"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageview_777"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="36dp"
+        android:text="Reviews"
+        android:textColor="@color/black"
+        android:textSize="34dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageview_779"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/textview_777"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/personimage" />
+
+    <ImageView
+        android:id="@+id/imageview_780"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/imageview_779"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/personimage"
+        android:layout_marginLeft="22dp"/>
+
+    <ImageView
+        android:id="@+id/imageview_781"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/imageview_780"
+        android:layout_marginTop="95dp"
+        android:src="@drawable/personimage"
+        android:layout_marginLeft="22dp"/>
+
+    <RelativeLayout
+        android:id="@+id/innerrelative_layout_4"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/textview_777"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="21dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Karl Ronas"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:id="@+id/textview_778"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9th July,2022"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="13dp"
+            android:id="@+id/textview_779"
+            android:layout_below="@+id/textview_778"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I personally visited this place.It was such a good decision to choose this place as my travelling spot.The calm that this place gave me cannot be expressed in words. "
+            android:id="@+id/textview_780"
+            android:layout_below="@+id/textview_779"
+            android:textColor="@color/black"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      Like                                             Reply"
+            android:id="@+id/textview_781"
+            android:layout_below="@+id/textview_780"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/black"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/innerrelative_layout_5"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/innerrelative_layout_4"
+        android:background="@color/white"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/textview_782"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="William Jhons"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/textview_783"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_782"
+            android:layout_marginLeft="13dp"
+            android:text="11th July,2022"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textview_784"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_783"
+            android:layout_marginLeft="12dp"
+            android:text="Such a calming experience!! I highly recommend everyone to visit this place.It feels like we are experiencing heaven."
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview_785"
+            android:layout_below="@+id/textview_784"
+            android:text="         Like                                           Reply"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/black"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/innerrelative_layout_6"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/innerrelative_layout_5"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="26dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nelson smith"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:id="@+id/textview_786"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview_787"
+            android:layout_below="@+id/textview_786"
+            android:text="15th July,2022"
+            android:layout_marginLeft="13dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview_788"
+            android:layout_below="@+id/textview_787"
+            android:text="If you really want the best of your life then don try this place out.It's just amazing!! "
+            android:textColor="@color/black"
+            android:layout_marginLeft="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview_789"
+            android:text="           Like                                          Reply"
+            android:layout_below="@+id/textview_788"
+            android:layout_marginLeft="15dp"/>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

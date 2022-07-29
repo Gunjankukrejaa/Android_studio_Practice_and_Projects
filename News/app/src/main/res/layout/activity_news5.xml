@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/islandimage"
+    tools:context=".news5">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector1_navigateleft"
+        android:id="@+id/menu_25"
+        android:layout_marginLeft="16dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vectormenu"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/menu_26"
+        android:layout_marginRight="22dp"/>
+
+    <TextView
+        android:id="@+id/menu_28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menu_25"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="354dp"
+        android:background="@color/white"
+        android:text="Island"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/menu_27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu_28"
+        android:layout_marginTop="8dp"
+        android:text="Explore Sentosa,Singapore"
+        android:layout_marginLeft="22dp"
+        android:textColor="@color/white"
+        android:textSize="36dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu_29"
+        android:text="Explore"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:background="@color/black"
+        android:layout_below="@id/menu_27"
+        android:layout_marginLeft="22dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:src="@drawable/vectorimage"
+        android:layout_below="@+id/menu_27"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="22dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:id="@+id/innerrelative_layout_3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Explore this page!!"
+            android:id="@+id/text_78"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_marginLeft="22dp"/>
+
+        <TextView
+            android:id="@+id/text_79"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About this"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="22dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_80"
+            android:text="This is not just an island. It is a place of complete peace.Achieve silence here.Heal yourself from all problems.There is solution to all problems.Get calm here!! "
+            android:textSize="22dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/text_79"
+            android:layout_marginLeft="22dp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
